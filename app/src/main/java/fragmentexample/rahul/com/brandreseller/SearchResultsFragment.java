@@ -64,7 +64,7 @@ public class SearchResultsFragment  extends Fragment {
 
     private void parseData() {
         try {
-            JSONObject itemsData = new JSONObject(noItems);
+            JSONObject itemsData = new JSONObject(brandsAndProduct);
 
             JSONArray jsonArrayBrands = itemsData.getJSONArray("brands");
             JSONArray jsonArrayProducts = itemsData.getJSONArray("products");
